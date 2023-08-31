@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{font-family: 'Poppins', sans-serif;}
+header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+}
+
+header aside{
+    position: fixed;
+    width: 26%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    padding: 15px 30px 15px 30px;
+    /*float: left;*/
+ 
+}
+
+header section{
+   position: relative;
+   left:27%;
+    width: 39%;
+    height: 50vh;
+    padding: 0px;
+    /*display:list-item;
+    /*float:right;*/
+    background:rgb(255, 255, 255);
+}
+
+header aside .logo{
+   margin-left: 125px;
+    font-size: 30px;
+    color: #1ca1f1;
+}
+
+header aside ul{
+    margin-left: 120px;
+    margin-top: 10px;
+    list-style-type: none;
+}   
+
+header aside ul li{
+    padding: 10px 0px;
+}
+
+header aside ul li a{
+    border-radius: 30px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0,.9);
+    font-size: 20px;
+    font-weight: 400;
+    transition: .1s linear;
+}
+
+header aside ul li a:hover{
+    background-color: rgb(0, 0, 0,.1);
+}
+
+header aside ul li:nth-child(8) a{
+    font-weight: 700;
+}
+
+header aside ul li:nth-child(8) i{
+    font-weight: 700;
+}
+
+header aside button{
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 120px;
+    padding: 10px 80px;
+    background-color:rgb(28, 161, 241);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font: bolder ;
+    transition: .1s linear;
+    cursor: pointer;
+}
+
+header aside button:hover{
+    background-color: rgb(36, 135, 197);
+}
+
+header section nav{
+    display: flex;
+}
+
+header section nav button{
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    /*margin-left: 10px;*/
+    padding: 10px 10px 10px; 
+    display: flex;
+}
+
+header section nav button:hover{
+    background-color: rgb(0, 0, 0,.1);  
+}
+
+header section ul{
+    cursor: pointer;
+    list-style: none;
+    margin: 5px 15px;
+}
+header section ul li{
+    margin: 10px 15px;
+    font-size: 20px;
+}
+
+header section .pf{
+    position: relative;
+    bottom: 20%;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+header section .editprofile{
+    border-color: rgb(0, 0, 0,.2);
+    border-width: 1px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.editprofile:hover{
+    background-color:rgb(0, 0, 0,.1) ;
+}
+
+header section .mydetails{
+    display:list-item;
+    list-style: none;
+    position: relative;
+    bottom: 18%;
+    margin-left: 10px;
+}
+
+header section .myname{
+    font-size: large;
+    font-weight: 700;
+}
+
+header section .username{
+    font-weight: 200;
+    font-size: 15px;
+}
+
+header section .bio{
+    margin-left: 10px;
+    position: relative;
+    bottom: 15%;
+    color: rgb(0, 0, 0,.8);
+}
+
+.bio_details{
+    position: relative;
+    bottom: 17%;
+    right: 3%;
+    margin-left: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.bio_details a{
+    text-decoration: none;
+    color: rgb(0, 0, 0,.5);
+    font-size: 15px;
+}
+
+.joined_month{
+    position: relative;
+    bottom: 22%;
+    margin-left: 7px;
+}
+
+.joined_month a{
+    text-decoration: none;
+    color: rgb(0, 0, 0,.5);
+    font-size: 15px;
+}
+
+.followers{
+    display: flex;
+    position: relative;
+    bottom: 25%;
+    right: 4%;
+}
+
+.followers a{
+    text-decoration: none;
+    font-size: 15px ;
+    color:rgb(0, 0, 0,.5) ;
+}
+
+.followers a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.tweets{
+    position: relative;
+    bottom: 30%;
+}
+
+.likes_tweets{
+    display: flex;
+}
+
+.likes_tweets a{
+    text-decoration: none;
+    color:rgb(0, 0, 0,.8);
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 0px 0px;
+    position: relative;
+    right: 40%;
+}
+
+.likes_tweets a:hover{
+    background-color: rgb(0, 0, 0,.1);
+}
+
+.likes_tweets a:active{
+    color: black;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #1ca1f1;
+    text-decoration-thickness: 3px;
+    
+}
+
+.post{
+    position: relative;
+    bottom: 32%;
+    left: 2%;
+    height: auto;
+    width: 100%;
+}
+
+/*.post:hover{
+    background-color: rgb(0, 0, 0,.1);
+}*/
+.pinned{
+    margin-left: 20px;
+    color: rgb(0, 0, 0,.8);
+    font-size: 12px;
+}
+
+.post_profile_pic{
+    border-radius: 50%;
+}
+
+.post_postcaption{
+    position: relative;
+    left: 10%;
+}
+
+.post_profile_name{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    bottom: 7%;
+    left: 1%;
+}
+
+.post_profile_name:hover{
+    text-decoration: underline;
+}
+
+.post_user_name{
+    position: relative;
+    text-decoration: none;
+    color: rgb(0, 0, 0,.5);
+    font-size: 15px;
+    bottom: 7%;
+    left: 1%;
+}
+
+.post_upload_date{
+    position: relative;
+    bottom: 7%;
+    left: 1%;
+    text-decoration: none;
+    color: rgb(0, 0, 0,.5);
+    font-size: 15px;
+}
+
+.post_upload_date:hover{
+    text-decoration: underline;
+}
+
+.post_more_button{
+    border: none;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+.post_more_button:hover{
+    background-color:rgb(28, 161, 241,.1); 
+    border-radius: 50%;
+    color: #1ca1f1;
+}
+
+.for_margin{
+    position: relative;
+    bottom: 8%;
+    left: 9%;
+}
+
+.rt{
+    font-size: 14px;
+    color: rgb(0, 0, 0,.5);
+}
+
+.rvcj{
+    text-decoration: none;
+    color: #1ca1f1;
+}
+
+.rvcj:hover{
+    text-decoration: underline;
+    
+}
+
+.caption{
+    color: rgb(0, 0, 0,.8);
+    font-size: 15px;
+}
+
+.posted_img{
+    border-radius: 3%;
+    position: relative;
+    top: 2%;
+}
+
+
+
+.likes_rt_comment_button a{
+    margin-left: 50px;
+    /*margin-right: 40px;*/
+    position: relative;
+    right: 4%;
+    bottom: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+
+.likes_rt_comment_button R{
+    margin-left: 50px;
+    /*margin-right: 40px;*/
+    position: relative;
+    right: 4%;
+    bottom: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+
+.likes_rt_comment_button L{
+    margin-left: 50px;
+    /*margin-right: 40px;*/
+    position: relative;
+    right: 4%;
+    bottom: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    color: rgb(255, 52, 120);
+
+}
+
+.likes_rt_comment_button a:hover{
+    color: #1ca1f1;
+}
+
+.likes_rt_comment_button R:hover{
+    color: rgb(21, 228, 21);
+}
+
+.likes_rt_comment_button L:hover{
+    color: rgb(255, 52, 120);
+}
+
+
+.likes_rt_comment_button button{
+    border: none;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.likes_rt_comment_button buttonR{
+    border: none;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.likes_rt_comment_button buttonR:hover{
+    color: rgb(21, 228, 21);
+   background-color: rgb(0,128,0,.1);
+}
+
+.likes_rt_comment_button buttonL{
+    border: none;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: rgb(255, 52, 120);
+}
+
+.likes_rt_comment_button buttonL:hover{
+   background-color: rgb(255, 192, 203,.4);
+}
+
+.likes_rt_comment_button button:hover{
+    color: #1ca1f1;
+   background-color: rgb(28, 161, 241,.1);
+}
+
+.trends_suggestions{
+   /* background-color: wheat;*/
+    height: auto;
+    width: 25%;
+   margin-left: 3%;
+    display: inline-block;
+}
+
+.trends_suggestions img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    
+}
+
+.you_might_like{
+    padding-top: 10px;
+    border-radius: 5%;
+    height: 320px;
+    width: 87%;
+    background-color: rgb(128, 128, 128,.1);
+    position: relative;
+    top: 2%;
+    left: 3%;
+}
+
+.profile_suggestions img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.suggestions_pfps{
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
+
+.pfp_suggestions{
+    width: 300px;
+    position: relative;
+    bottom: 5px;
+}
+
+.pfp_suggestions:hover{
+    background-color: rgb(0, 0, 0,.1);
+   
+}
+.img777{
+    border-radius: 20px;
+}
+
+
+.profile_suggestions a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 5px;
+    bottom: 3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile_suggestions a:hover{
+    text-decoration: underline;
+}
+
+.profile_suggestions k{
+    font-size:14px ;
+    color: rgb(0, 0, 0,.6);
+    position: relative;
+    left: 40px;
+    bottom: 15px;
+}
+
+.profile_suggestions button{
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    padding: 7px 15px;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 4px;
+}
+
+.btnn{
+    position: relative;
+    right: 10px;
+}
+
+#sd{
+    position: relative;
+    bottom: 30px;
+}
+
+#mb{
+    position: relative;
+    bottom: 55px;
+}
+
+.whats_happening{
+    border-radius: 10px;
+    height: auto;
+    width: 87%;
+    background-color: rgb(128, 128, 128,.1);
+    margin-left: 12px;
+    margin-top: 35px;
+}
+
+.trends{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.whats_happening trending{
+    font-size: 13px;
+    color: rgb(0, 0, 0,.7);
+}
+.whats_happening main{
+    font-size: 15px;
+
+}
+
+.whats_happening k{
+    font-size: 13px;
+    color: rgb(0, 0, 0,.7);
+}
+
+.more_button_trending{
+    float:right;
+    position: relative;
+    top: 6px;
+    border: none;  
+    padding: 10px 10px;
+    background-color: none;    
+}
+
+.more_button_trending :hover{
+    cursor: pointer;
+    color: #1ca1f1;
+    border-radius: 60%;
+    background-color: rgb(28, 161, 241,.1);
+}
+
+/*.you_might_like:hover{
+    background-color: blue;
+    
+}*/
+
+/*.post{
+    position:relative;
+    bottom: 32%;
+    height: auto;
+    width: 100%;
+}
+
+.post:hover{
+    background-color: rgb(128, 128, 128,.1);
+    transition: .5s;
+}
+
+.pinned{
+    color: rgb(0, 0, 0,.7);
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 18px;
+    /*position: relative;
+    /*right: 25%;*/
+
+
+/*.post_profile_pic{
+    border-radius: 50%;
+    position: relative;
+   /* right:27%*/
+
+
+/*.post_profile_info{
+    display:flex;
+    position: relative;
+    bottom: 20px;
+    left: 29%;
+}
+
+.post_profile_name{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+.post_profile_name:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.post_user_name{
+    color: rgb(0, 0, 0,.5);
+    font-size: 15px;
+
+}
+
+.post_upload_date{
+    text-decoration: none;
+    color: rgb(0, 0, 0,.5);
+    font-size: 15px;
+
+}
+
+.post_upload_date:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0,.5);
+
+}
+
+.post_caption{
+   /* position: relative;
+    bottom: 13%;
+    left: 21%;*/
+ /*   font-size: 15px;
+    color: rgb(0, 0, 0,.8);
+}
+
+.posted_img{
+    align-content: center;
+    position: relative;
+    /*bottom: 10%;
+    left: 20%;*/
+    
+/*}
+
+.my_post{
+    border-radius: 3%;
+}
+
+.final_touch{
+    height: auto;
+    width: 100%;
+    position: relative;
+    bottom: 20%;
+    right: 25%;
+}*/
+
+
